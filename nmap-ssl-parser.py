@@ -7,7 +7,6 @@
 # Base code credit: https://github.com/DanMcInerney/nmap-parser/blob/master/nmap-parser.py 
 #
 
-import argparse
 import subprocess
 import sys
 from libnmap.process import NmapProcess
@@ -28,11 +27,6 @@ elif len(sys.argv) ==3:
 	f = open(myfile, 'w')
 	f.close
 	print 'nmap-ssl-parser - v0.2 ( https://github.com/attackdebris/nmap-ssl-parser )\n'
-
-def parse_args():
-	parser = argparse.ArgumentParser()
-	parser.add_argument(sys.argv[1])
-	return parser.parse_args()
 
 def report_parser(report):
     ''' Parse the Nmap XML report '''
