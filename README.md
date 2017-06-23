@@ -53,4 +53,4 @@ cat ssl-services.txt
 ```
 
 ### Credit
-Thse base code I used to create this: https://github.com/DanMcInerney/nmap-parser/blob/master/nmap-parser.py
+The base code I used to create this: https://github.com/DanMcInerney/nmap-parser/blob/master/nmap-parser.py
