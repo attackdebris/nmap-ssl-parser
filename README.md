@@ -10,9 +10,10 @@ git clone https://github.com/attackdebris/nmap-ssl-parser.git
 
 ### Prerequisites 
 
-The only pre-reqs is:
+The pre-reqs are:
 
-1. You need a valid Nmap XML output file (see below)
+1. Python (tested on Python 2.7) 
+2. You need a valid Nmap XML output file (see below)
 
 ### Nmap XML File
 
@@ -42,7 +43,7 @@ Results saved to: ssl-services.txt
 
 ### Output / Results
 
-The output from the script is concatenated file (see below)
+The output from the script is a concatenated file (see below)
 
 ```bash
 cat ssl-services.txt 
@@ -50,3 +51,6 @@ cat ssl-services.txt
 185.176.90.16:443
 199.101.100.186:31337
 ```
+
+### Credit
+Thse base code I used to create this: https://github.com/DanMcInerney/nmap-parser/blob/master/nmap-parser.py
